@@ -18,3 +18,6 @@ cd $P/applicage
 ./install.sh
 port selfupdate
 port upgrade outdated
+
+cd $P/ebook_assimilator
+./assimilate.rb
