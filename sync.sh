@@ -4,6 +4,7 @@ P="$HOME/projects"
 
 cd $P/dotmatrix
 git pull
+source ~/.shell_aliases
 compile_shell_aliases
 source ~/.shell_aliases
 
