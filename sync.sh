@@ -4,8 +4,7 @@ P="$HOME/projects"
 
 cd $P/dotmatrix
 git pull
-source ~/.shell_aliases
-compile_shell_aliases
+rake setup
 source ~/.shell_aliases
 
 cd $P/the_one
