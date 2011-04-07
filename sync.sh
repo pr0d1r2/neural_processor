@@ -3,6 +3,8 @@
 P="$HOME/projects"
 
 cd $P/dotmatrix
+gem install bundler
+bundle install
 git pull
 rake setup
 source ~/.shell_aliases
