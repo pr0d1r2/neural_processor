@@ -20,4 +20,4 @@ port selfupdate
 port upgrade outdated
 
 cd $P/ebook_assimilator
-./assimilate.rb
+ruby assimilate.rb
